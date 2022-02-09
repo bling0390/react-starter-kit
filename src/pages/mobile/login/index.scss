@@ -1,0 +1,36 @@
+.mobile-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background: #acb6e5;
+  background: -webkit-linear-gradient(to bottom, #86fde8, #acb6e5);
+  background: linear-gradient(to bottom, #86fde8, #acb6e5);
+
+  &-avatar {
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+  }
+
+  &-form {
+    &-h1 {
+      margin-bottom: 0;
+      text-align: center;
+      color: #fff;
+    }
+
+    &-input {
+      height: 48px;
+      line-height: 48px;
+      border-radius: 8px;
+    }
+
+    &-submit {
+      height: 48px;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 8px;
+    }
+  }
+}

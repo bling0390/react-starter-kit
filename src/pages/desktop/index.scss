@@ -1,0 +1,21 @@
+.login-user {
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+  height: 48px;
+  color: #fff;
+
+  &-name {
+    margin-left: 10px;
+  }
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-name {
+    margin-left: 10px;
+  }
+}

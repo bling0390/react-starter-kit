@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint-react"],
+  "rules": {
+    "no-var-requires": false,
+    "no-submodule-imports": false,
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": false,
+    "no-implicit-dependencies": false,
+    "no-console": false,
+    "jsx-boolean-value": false,
+    "jsx-no-multiline-js": false,
+    "jsx-alignment": false
+  },
+  "defaultSeverity": "warning"
+}

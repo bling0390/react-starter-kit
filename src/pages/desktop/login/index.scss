@@ -1,0 +1,43 @@
+.desktop-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../../../assets/images/bg.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #f5f5f5;
+
+  &-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  &-form {
+    &-h1 {
+      margin-bottom: 0;
+    }
+
+    &-input {
+      height: 48px;
+      line-height: 48px;
+    }
+
+    &-submit {
+      height: 48px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

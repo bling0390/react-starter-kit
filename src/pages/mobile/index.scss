@@ -1,0 +1,18 @@
+.mobile-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .mobile-top-nav {
+    border-bottom: solid 1px #eaeaea;
+  }
+
+  .mobile-content {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .mobile-bottom-nav {
+    border-top: solid 1px #eaeaea;
+  }
+}
